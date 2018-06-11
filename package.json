@@ -1,0 +1,29 @@
+{
+    "name": "libreops",
+    "version": "0.1.0",
+    "repository": {
+        "type": "git",
+        "url": "https://gitlab.com/libreops/libreops.cc"
+    },
+    "author": "LibreOps",
+    "license": "AGPL-3.0",
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-eslint": "^3.0.1",
+        "gulp-stylelint": "^3.9.0"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free-webfonts": "^1.0.6",
+        "bootstrap": "^4.1.1",
+        "jquery": "^3.3.1",
+        "popper.js": "^1.14.3"
+    },
+    "assets": [
+        "@fortawesome/fontawesome-free-webfonts/css/*",
+        "@fortawesome/fontawesome-free-webfonts/webfonts/*",
+        "bootstrap/dist/css/bootstrap.min.css",
+        "bootstrap/dist/js/bootstrap.min.js",
+        "jquery/dist/jquery.min.js",
+        "popper.js/dist/umd/popper.min.js"
+    ]
+}
