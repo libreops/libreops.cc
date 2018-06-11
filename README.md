@@ -1,6 +1,4 @@
-# libreops
-
-[![libreops](https://libreops.org/static/img/libreops.svg)](https://libreops.cc/)
+[![libreops](https://libreops.cc/static/img/libreops.svg)](https://libreops.cc/)
 
 ## license
 
