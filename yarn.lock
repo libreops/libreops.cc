@@ -2,10 +2,6 @@
 # yarn lockfile v1
 
 
-"@fortawesome/fontawesome-free-webfonts@^1.0.6":
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free-webfonts/-/fontawesome-free-webfonts-1.0.9.tgz#72f2c10453422aba0d338fa6a9cb761b50ba24d5"
-
 JSONStream@^0.8.4:
   version "0.8.4"
   resolved "https://registry.yarnpkg.com/JSONStream/-/JSONStream-0.8.4.tgz#91657dfe6ff857483066132b4618b62e8f4887bd"
@@ -950,6 +946,10 @@ for-own@^1.0.0:
   resolved "https://registry.yarnpkg.com/for-own/-/for-own-1.0.0.tgz#c63332f415cedc4b04dbfe70cf836494c53cb44b"
   dependencies:
     for-in "^1.0.1"
+
+fork-awesome@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/fork-awesome/-/fork-awesome-1.1.0.tgz#771c8fcee6bb3d1481c8394094d4ea1f2d3e4acc"
 
 fragment-cache@^0.2.1:
   version "0.2.1"
