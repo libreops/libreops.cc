@@ -66,6 +66,22 @@ a:focus {
   padding-right: 10px;
 }
 
+.updates {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 0;
+}
+
+.updates > li {
+  margin-top: 15px;
+  list-style-type: none;
+}
+
+.itemTitle > a {
+  display: inline-block;
+  margin-left: 10px;
+}
+
 footer {
   height: 52px;
   margin: 10px auto 0;
