@@ -2,6 +2,10 @@
 
 A group of hackers (re-)decentralizing the net. Doing our part.
 
+## Support
+
+![Liberapay receiving](https://img.shields.io/liberapay/receives/libreops.svg)
+
 ## Join
 
 [![irc](https://img.shields.io/badge/Matrix-%23libreops:matrix.org-blue.svg)](https://riot.im/app/#/room/#libreops:matrix.org)
