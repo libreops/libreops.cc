@@ -41,10 +41,6 @@ a:focus {
   border-color: #800;
 }
 
-.container {
-  max-width: 850px;
-}
-
 .page {
   min-height: 100%;
   margin-bottom: -52px;
