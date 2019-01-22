@@ -3,6 +3,7 @@
 $(document).ready(function() {
     'use strict';
 
+    // Fetch updates from diaspora*
     $.get('https://librenet.gr/public/libreops.atom', function (data) {
         var updates_html = ``;
         $(data).find('entry').each(function (i) {
@@ -22,5 +23,11 @@ $(document).ready(function() {
         });
         $('#updates').html(updates_html);
     });
+
+    // Highlight section on url hash
+    if(window.location.hash) {
+        const hash = window.location.hash;
+        $(hash).addClass('highlight');
+    }
 
 });
