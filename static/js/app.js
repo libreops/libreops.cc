@@ -21,7 +21,7 @@ $(document).ready(function() {
                 </li>`;
             return i<5;
         });
-        $('#updates').html(updates_html);
+        $('#feed').html(updates_html);
     });
 
     // Highlight section on url hash
