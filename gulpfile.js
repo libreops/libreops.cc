@@ -1,46 +1,40 @@
-/* global require */
+/* global require, exports */
 
-var gulp = require('gulp');
-var eslint = require('gulp-eslint');
-var stylelint = require('gulp-stylelint');
+const gulp = require('gulp');
+const eslint = require('gulp-eslint');
+const stylelint = require('gulp-stylelint');
 
-var lintPathsJS = [
+const lintPathsJS = [
     'static/js/*.js',
     'gulpfile.js'
 ];
 
-var lintPathsCSS = [
+const lintPathsCSS = [
     'static/css/*.scss',
     'static/css/*.css'
 ];
 
-gulp.task('js:lint', () => {
+function lint_js() {
     return gulp.src(lintPathsJS)
         .pipe(eslint())
         .pipe(eslint.format())
         .pipe(eslint.failAfterError());
-});
+}
 
-gulp.task('css:lint', () => {
+function lint_css() {
     return gulp.src(lintPathsCSS)
         .pipe(stylelint({
             reporters: [{ formatter: 'string', console: true}]
         }));
-});
+}
 
-gulp.task('assets', function(){
-    var p = require('./package.json');
-    var assets = p.assets;
+function assets() {
+    const p = require('./package.json');
+    const assets = p.assets;
     return gulp.src(assets, {cwd : 'node_modules/**'})
         .pipe(gulp.dest('static/lib'));
-});
+}
 
-gulp.task('test', () => {
-    gulp.start('js:lint');
-    gulp.start('css:lint');
-});
-
-gulp.task('default', function() {
-    gulp.start('assets');
-    gulp.start('test');
-});
+exports.assets = assets;
+exports.test = gulp.parallel(lint_css, lint_js);
+exports.default = gulp.series(lint_css, lint_js, assets);
