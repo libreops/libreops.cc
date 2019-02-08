@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %} &bull; {{ title }}{% endblock title %}
+
+{% block meta %}
+  <meta property="og:title" content="{{ title}}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{ rooturl }}{{ link }}">
+  {% if images %}
+    {% for image in images %}
+      <meta property="og:image" content="{{ rooturl }}{{ link }}{{ image }}">
+    {% endfor %}
+  {% endif %}
+  <meta property="og:description" content="{{ content|striptags|truncate(300, True)|e }}">
+{% endblock %}
+
+{% block content %}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 post-title mb-3">
+        <h3>
+          <a href="/{{ link }}">{{ title }}</a>
+        </h3>
+        <small>
+          {{ shortdate }} -
+          {% for tag in tags %}
+            <a href="/tag/{{ tag }}/">#{{ tag }}</a>
+          {% endfor %}
+        </small>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 post">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+
+{% endblock %}

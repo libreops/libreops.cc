@@ -2,14 +2,7 @@
 
 A group of hackers (re-)decentralizing the net. Doing our part.
 
-This is the repo for our main website.
-
-## Local setup
-
-```
-pip install monopati
-monopati render
-```
+This is the repo for our main website. The source code lives on [GitLab](https://gitlab.com/libreops/libreops.cc).
 
 ## Support
 

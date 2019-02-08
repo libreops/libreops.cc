@@ -1,0 +1,6 @@
+sitename: LibreOps
+author: LibreOps
+rooturl: https://libreops.cc/
+logo: libreops.svg
+license: Creative Commons Attribution-ShareAlike
+output: public
