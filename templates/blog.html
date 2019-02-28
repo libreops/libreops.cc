@@ -3,17 +3,21 @@
 {% block title %} &bull; Updates{% endblock title %}
 
 {% block content %}
-  <table class="table table-borderless table-responsive">
-    {% for post in posts %}
-      <tr>
-        <td id="pubdate">{{ post['shortdate'] }}</td>
-        <td>
-          <a href="/{{ post.link }}">{{ post.title }}</a><br>
-          {% for tag in post.tags %}
-            <a href="/tag/{{ tag }}/" class="text-muted">#{{ tag }}</a>&nbsp;
-          {% endfor %}
-        </td>
-      </tr>
-    {% endfor %}
-  </table>
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <table class="table table-borderless table-responsive">
+        {% for post in posts %}
+          <tr>
+            <td id="pubdate">{{ post['shortdate'] }}</td>
+            <td>
+              <a href="/{{ post.link }}">{{ post.title }}</a><br>
+              {% for tag in post.tags %}
+                <a href="/tag/{{ tag }}/" class="text-muted">#{{ tag }}</a>&nbsp;
+              {% endfor %}
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
+    </div>
+  </div>
 {% endblock %}
