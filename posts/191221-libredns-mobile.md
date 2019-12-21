@@ -1,7 +1,8 @@
 title: Mobile Privacy with DoH using Firefox and LibreDNS 
-slug: libredns, firefox
+slug: libredns-mobile-firefox
 date: 2019-12-21 17:00:00
 tags: dns, mobile, firefox
+files: mobile1.png, mobile2.png, mobile3.png, mobile4.png
 ---
 
 ## DNS over HTTPS on Mobile
@@ -13,13 +14,13 @@ In the article we provide the steps to do that with the help of Firefox and Libr
 
 ## Firefox on Mobile
 
-1.  Download Firefox for Mobile Devices.
-2.  Open Firefox and write on the address bar `about:config`.
-3.  Write in the search bar `network.trr.uri` and change the value of the preference to the URL of **LibreDNS** DoH endpoint: <https://doh.libredns.gr/dns-query>.
+*  Download Firefox for Mobile Devices.
+*  Open Firefox and write on the address bar `about:config`.
+*  Write in the search bar `network.trr.uri` and change the value of the preference to the URL of **LibreDNS** DoH endpoint: <https://doh.libredns.gr/dns-query>.
 
 ![mobile1](mobile1.png)
 
-4.  Write in the search bar `network.trr.mode` and use **2** as a value if you want to use LibreDNS as default DoH provider and your prexisting DNS provider as a fallback.
+*  Write in the search bar `network.trr.mode` and use **2** as a value if you want to use LibreDNS as default DoH provider and your prexisting DNS provider as a fallback.
     Use **3** as a value if you want to use **only** LibreDNS without any fallback, for more options visit: <https://wiki.mozilla.org/Trusted_Recursive_Resolver>.
 
 ![mobile2](mobile2.png)
@@ -29,6 +30,6 @@ In the article we provide the steps to do that with the help of Firefox and Libr
 
 ![mobile3](mobile3.png)
 
-5.  Test the connection with <http://dnsleaktest.com/> and should only get the following results:
+*  Test the connection with <http://dnsleaktest.com/> and should only get the following results:
 
 ![mobile4](mobile4.png)
