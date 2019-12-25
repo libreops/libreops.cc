@@ -1,7 +1,7 @@
-title: Mobile Privacy with DoH using Firefox and LibreDNS 
+title: Mobile Privacy with DoH using Firefox and LibreDNS
 slug: libredns-mobile-firefox
 date: 2019-12-21 17:00:00
-tags: dns, mobile, firefox
+tags: dns, guide
 files: mobile1.png, mobile2.png, mobile3.png, mobile4.png
 ---
 
@@ -24,8 +24,8 @@ In this article, we provide steps to do that with the help of Firefox and LibreD
 
 ![mobile2](mobile2.png)
 
-*  If you choose **3** in `network.trr.mode` you also need to add the following preference in `about:config`: 
-    Search for `network.trr.bootstrapAddress` in the address bar and change the value to `116.203.115.192` which is the IP address of LibreDNS. 
+*  If you choose **3** in `network.trr.mode` you also need to add the following preference in `about:config`:
+    Search for `network.trr.bootstrapAddress` in the address bar and change the value to `116.203.115.192` which is the IP address of LibreDNS.
 
 ![mobile3](mobile3.png)
 
