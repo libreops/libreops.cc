@@ -13,7 +13,7 @@ monopati render
 
 ## Support
 
-[![Liberapay](https://libreops.cc/static/img/liberapay.svg)](https://liberapay.com/libreops/donate)
+![OpenCollective](https://img.shields.io/opencollective/all/libreops?color=%23800&label=opencollective&style=flat-square)
 
 ## Join
 
