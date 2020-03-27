@@ -25,10 +25,10 @@ In this article, we provide steps to do that with the help of Firefox and LibreD
 ![mobile2](mobile2.png)
 
 *  If you choose **3** in `network.trr.mode` you also need to add the following preference in `about:config`:
-    Search for `network.trr.bootstrapAddress` in the address bar and change the value to `116.203.115.192` which is the IP address of LibreDNS.
+    Search for `network.trr.bootstrapAddress` in the address bar and change the value to `116.202.176.26` which is the IP address of LibreDNS.
 
 ![mobile3](mobile3.png)
 
-*  Test the connection with <http://dnsleaktest.com/>, you should only get the following results:
+*  Test the connection with <https://dnsleaktest.com/>, you should only get the following results:
 
 ![mobile4](mobile4.png)
