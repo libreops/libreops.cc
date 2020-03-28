@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block title %} &bull; radicalDNS{% endblock title %}
+
+{% block logo %}<img src="/static/img/radicaldns.png" alt="radicalDNS" class="avatar">{% endblock %}
+
+{% block nav %}{% endblock %}
+
+{% block content %}
+  <div class="card w-75 mx-auto">
+    <div class="card-header">
+      <span>about</span>
+    </div>
+    <div class="card-body">
+      <p>
+        This is a DNS service run by <a href="https://libreops.cc" target="_blank">LibreOps</a>.
+      </p>
+      <p>
+        The goal is to offer a public DNS service that people can use to maintain the secrecy of their DNS traffic, but also circumvent censorship.
+        We don't keep logs, but we also filter ads and trackers.
+      </p>
+      <p>
+        If you want to support us, you can <a href="https://opencollective.com/libreops/" target="_blank">donate</a>.
+      </p>
+      <p>
+        <small>
+          If you are looking for encrypted DNS (eg. DoH, DoT), check out our other service: <a href="https://libredns.gr/" target="_blank">LibreDNS</a>.
+        </small>
+      </p>
+    </div>
+  </div>
+
+  <div class="card mt-4 w-75 mx-auto">
+    <div class="card-header">
+      documentation
+    </div>
+    <div class="card-body">
+      <div>
+        <p>
+          <span class="badge badge-dark">IP</span> <code>88.198.92.222</code><br>
+          <span class="badge badge-dark">Port</span> <code>53</code><br>
+        </p>
+        <p>
+
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card mt-4 w-75 mx-auto">
+    <div class="card-header">
+      privacy
+    </div>
+    <div class="card-body">
+      <p>
+        One of the motives for creating this service was to build a DNS server that will keep a minimum amount of (meta)data and only the bare minimum that is required for its core functionality, in respect to users privacy.
+      </p>
+
+      <p>
+        In detail:
+        <ul>
+          <li>We keep no logs. Logs are disabled for our DNS daemon.</li>
+          <li>We use a local resolver for the DNS requests. We use OpenNIC as our Tier 1.</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+{% endblock %}
+
+{% block footer_class %}w-75{% endblock %}
+
+{% block footer %}
+  <i class="fa fa-power-off" aria-hidden="true"></i> powered by <a href="https://libreops.cc" target="_blank">LibreOps</a>
+{% endblock %}
