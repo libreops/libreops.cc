@@ -9,6 +9,7 @@ This is the repo for our main website.
 ```
 pip install monopati
 monopati render
+monopati serve
 ```
 
 ## Support
