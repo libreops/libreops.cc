@@ -2,7 +2,17 @@
 
 {% block body_class %}wide{% endblock %}
 
+{% block extra %}
+  <div class="extra text-right mb-3">
+    <a href="https://status.libreops.cc/" type="button" class="btn btn-secondary btn-sm" target="_blank">
+      <i class="fa fa-area-chart" aria-hidden="true"></i>
+      uptime
+    </a>
+  </div>
+{% endblock %}
+
 {% block content %}
+
   <div class="services">
 
     <!-- LibreDNS -->

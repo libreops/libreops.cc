@@ -191,6 +191,10 @@ nav a.text-dark:focus {
   margin: inherit;
 }
 
+.extra a {
+  text-decoration: none;
+}
+
 footer {
   margin: 10px auto 0;
   text-align: center;
