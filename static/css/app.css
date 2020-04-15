@@ -191,6 +191,10 @@ nav a.text-dark:focus {
   margin: inherit;
 }
 
+.beta {
+  color: gray;
+}
+
 .extra a {
   text-decoration: none;
 }
