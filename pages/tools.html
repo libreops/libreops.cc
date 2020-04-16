@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block body_class %}wide{% endblock %}
+
+{% block content %}
+  <div class="services">
+
+    <!-- doh-cli -->
+    <div class="card">
+      <div class="card-header">
+        <h5>
+          doh-cli
+          <img class="service-img" src="/static/img/dohcli.png" alt="doh-cli">
+        </h5>
+      </div>
+      <div class="card-body">
+        <p class="my-2">
+          A simple DNS over HTTPS client for the command line.
+        </p>
+      </div>
+      <div class="card-footer">
+        <a href="https://pypi.org/project/doh-cli/" target="_blank" class="btn btn-outline-dark card-link">download</a>
+      </div>
+    </div>
+
+  </div>
+{% endblock %}
