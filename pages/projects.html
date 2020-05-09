@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="projects">
+    <!-- doh-cli -->
+    <h4>
+      <img class="tool-img" src="/static/img/dohcli.png" alt="doh-cli">
+      doh-cli
+    </h4>
+
+    <div class="tool-desc my-2 ml-3">
+      <p>
+        A simple DNS over HTTPS client for the command line.
+      </p>
+
+      <p>
+        It's written in Python and implements RFC 8484,
+        supporting plain (default) and json output.
+      </p>
+
+      <a href="https://pypi.org/project/doh-cli/" target="_blank" class="btn btn-outline-dark mt-3">download</a>
+    </div>
+
+    <hr>
+
+    <!-- packages -->
+    <h4>
+      <img class="tool-img" src="/static/img/packages.png" alt="packages">
+      packages
+    </h4>
+
+    <div class="tool-desc my-2 ml-3">
+      <p>
+        Pre-built packages for other projects (AppImage, deb, rpm, etc).
+      </p>
+
+      <p>
+        This is an effort to maintain packages for software that it's needed for our services.
+      </p>
+
+      <ul>
+        <li>
+          <u>dns-over-https</u> - DNS over HTTPS server:
+          <a href="https://gitlab.com/libreops/packages/dns-over-https/-/jobs/artifacts/master/browse?job=run-build" target="_blank">deb</a>
+        </li>
+
+        <li>
+          <u>Jitsi Meet Electron</u> - desktop application for Jitsi Meet:
+          <a href="https://gitlab.com/libreops/packages/jitsi-meet-electron/-/jobs/artifacts/master/raw/jitsi-meet-amd64.deb?job=build">deb</a> |
+          <a href="https://gitlab.com/libreops/packages/jitsi-meet-electron/-/jobs/artifacts/master/raw/jitsi-meet-x86_64.rpm?job=build">rpm</a> |
+          <a href="https://gitlab.com/libreops/packages/jitsi-meet-electron/-/jobs/artifacts/master/raw/jitsi-meet-x86_64.AppImage?job=build">AppImage</a>
+        </li>
+          </li>
+      </ul>
+    </div>
+
+  </div>
+{% endblock %}
