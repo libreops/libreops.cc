@@ -1,6 +1,6 @@
 title: Using LibreDNS on iOS 14.x
 slug: libredns-ios
-tags: libredns, service
+tags: libredns, guide
 files: libredns-doh-dnsecure.png, libredns-dot-dnsecure.png, libredns-vpn-ios.jpg, mobile4.png
 ---
 
@@ -29,7 +29,7 @@ You can download the application from the apple store:
 
 These are the settings to enable LibreDNS - DoH (DNS over https) service:
 
-Servers: **116.202.176.26** \
+Servers: **116.202.176.26** <br>
 Server URL: `https://doh.libredns.gr/dns-query`
 
 ![libredns-doh](libredns-doh-dnsecure.png)
@@ -42,7 +42,7 @@ or you can use our no-trackers endpoint:
 
 To add the DoT (DNS over TLS) support:
 
-Servers: **116.202.176.26** \
+Servers: **116.202.176.26** <br>
 Server Name: `dot.libredns.gr`
 
 ![libredns-dot](libredns-dot-dnsecure.png)
