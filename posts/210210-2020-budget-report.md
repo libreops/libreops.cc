@@ -2,6 +2,7 @@ title: 2020 budget report
 slug: 2020-budget-report
 date: 2021-10-02 11:00:00
 tags: budget
+files: piechart_libreops.png
 ---
 
 About a year ago we switched to [OpenCollective](https://opencollective.com/libreops) for managing donations and expenses. This gave us more funding capabilities and more transparency on how we use our budget.
@@ -18,6 +19,8 @@ So this is a good opportunity to do a brief summary of our 2020 budget, how and 
 - Swag: 17€
 - Main website: 13€
 - Backup: 5€
+
+![LibreOps Expenses 2020](piechart_libreops.png)
 
 **Total: 334€**
 
