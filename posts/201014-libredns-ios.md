@@ -1,5 +1,6 @@
 title: Using LibreDNS on iOS 14.x
 slug: libredns-ios
+date: 2020-10-14 11:00:00
 tags: libredns, guide
 files: libredns-doh-dnsecure.png, libredns-dot-dnsecure.png, libredns-vpn-ios.jpg, mobile4.png
 ---
