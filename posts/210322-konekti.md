@@ -9,6 +9,8 @@ It's been more than two years since we launched our [Mastodon instance](https://
 
 We understand though that many people still want to use Mastodon as a complementary channel along with everything else they use. To better accommodate that we launched a new service that allows you to cross-post between Twitter and Mastodon. It works in both ways and it's very configurable to allow you determine the kind of information you want to publish in either platforms. You only need to connect it with both of them and get through the settings.
 
+**You can connect to the service at: [konekti.libretooth.gr](https://konekti.libretooth.gr/)**
+
 ![konekti configuration](konekti.jpg)
 
 This service is based on the Open Source project [Moa](https://github.com/FedStoa/moa)
