@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block title %} &bull; Syncthing Relay{% endblock title %}
+
+{% block logo %}<img src="/static/img/syncthing.png" alt="syncthing" class="avatar">{% endblock %}
+
+{% block nav %}{% endblock %}
+
+{% block content %}
+  <div class="card w-75 mx-auto">
+    <div class="card-header">
+      <span data-l10n-id="syncthingrelay-about-title">about</span>
+    </div>
+    <div class="card-body" data-l10n-id="syncthingrelay-about-text">
+      <p>
+        <a href="https://docs.syncthing.net/users/relaying.html" target="_blank">Syncthing</a> is a
+        free, open-source, peer-to-peer, continuous file synchronization program that works across
+        multiple devices.
+      </p>
+      <p>
+        A Relay server can connect devices that can not directly be connected with each other (eg.
+        firewall) or can be useful in case of low power devices as syncthing consums a lot CPU cycles
+        to constancly identify changed filed and calculate deltas.
+      </p>
+      <p>
+        To help the community, reduce latency and increase its diversity, Libreops runs a syncthing
+        relay in Greece.
+      </p>
+      <p>
+        If you want to help us run more relays, you can <a href="https://opencollective.com/libreops/" target="_blank">donate</a>.
+      </p>
+    </div>
+  </div>
+
+  <div class="card my-4 w-75 mx-auto">
+    <div class="card-header">
+      resources
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><a href="https://gitlab.com/libreops/syncthingrelay" target="_blank">Ansible scripts</a></li>
+        <li><a href="https://relays.syncthing.net/" target="_blank">Relay metrics</a></li>
+      </ul>
+    </div>
+  </div>
+{% endblock %}
+
+{% block footer_class %}w-75{% endblock %}
+
+{% block footer %}
+  <i class="fa fa-power-off" aria-hidden="true"></i> powered by <a href="https://libreops.cc" target="_blank">LibreOps</a>
+{% endblock %}
