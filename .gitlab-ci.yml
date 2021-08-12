@@ -4,19 +4,9 @@ build:
   stage: build
   script:
   - apk add git
-  - git clone https://$GITHUB_USER:$GITHUB_TOKEN@github.com/libreops/libreops.cc.git public
   - pip install monopati
   - monopati render
-  - export COMMIT_TIME=$(git show -s --format=%ct $CI_COMMIT_SHA)
   - cp -r extras/. public
-  - cp CODE_OF_CONDUCT.md public/
-  - cp LICENSE public/
-  - cd public
-  - git config user.email "git@libreops.cc"
-  - git config user.name "LibreOps"
-  - git add --all .
-  - git commit -m $COMMIT_TIME
-  - git push origin master
   artifacts:
     paths:
     - public
