@@ -49,8 +49,8 @@
   </div>
 {% endblock %}
 
-{% block footer_class %}w-75{% endblock %}
+{% block footer_class %}w-75 mx-auto{% endblock %}
 
-{% block footer %}
-  <i class="fa fa-power-off" aria-hidden="true"></i> powered by <a href="https://libreops.cc" target="_blank">LibreOps</a>
-{% endblock %}
+{% block footer_logo %}
+  <a href="https://libreops.cc"><img src="/static/img/{{ logo }}" alt="{{ sitename }}" class="footer-avatar"></a>
+{% endblock footer_logo %}

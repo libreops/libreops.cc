@@ -220,6 +220,23 @@ nav a.text-dark:focus {
 }
 
 footer {
-  margin: 10px auto 0;
   text-align: center;
+}
+
+.footer-link {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-col a,
+.footer-avatar {
+  max-width: 80px;
 }
