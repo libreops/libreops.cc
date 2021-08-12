@@ -1,6 +1,6 @@
 image: python:3-alpine
 
-build:
+pages:
   stage: build
   script:
   - apk add git
