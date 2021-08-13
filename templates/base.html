@@ -44,41 +44,46 @@
       </div>
 
       <div class="container mt-4">
-        {% block extra %}{% endblock %}
         {% block content %}{% endblock content %}
       </div>
 
     </div>
 
     <div class="container">
-      <footer class="p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm {% block footer_class %}{% endblock %}">
+      <footer class="p-3 px-md-4 my-3 border shadow {% block footer_class %}{% endblock %}">
         {% block footer %}
-          <a href="https://riot.im/app/#/room/#libreops:matrix.org" class="mx-1" target="_blank" data-toggle="tooltip" title="Chat">
-            <i class="fa fa-comments" aria-hidden="true"></i>
-          </a>
-          <a href="https://opencollective.com/libreops/" class="mx-1" target="_blank" data-toggle="tooltip" title="Donate">
-            <i class="fa fa-eur" aria-hidden="true"></i>
-          </a>
-          <a href="https://status.libreops.cc/" class="mx-1" target="_blank" data-toggle="tooltip" title="Services Status">
-            <i class="fa fa-area-chart" aria-hidden="true"></i>
-          </a>
-          &bull;
-          <a href="https://gitlab.com/libreops/" class="mx-1" target="_blank" data-toggle="tooltip" title="Gitlab">
-            <i class="fa fa-gitlab" aria-hidden="true"></i>
-          </a>
-          <a href="https://github.com/libreops/" class="mx-1" target="_blank" data-toggle="tooltip" title="Github">
-            <i class="fa fa-github" aria-hidden="true"></i>
-          </a>
-          &bull;
-          <a href="/feed.xml" class="mx-1" data-toggle="tooltip" title="Feed">
-            <i class="fa fa-rss" aria-hidden="true"></i>
-          </a>
-          <a href="https://libretooth.gr/@libreops" class="mx-1" data-toggle="tooltip" title="Mastodon">
-            <i class="fa fa-mastodon" aria-hidden="true"></i>
-          </a>
-          <a href="https://twitter.com/libreops" class="mx-1" data-toggle="tooltip" title="Twitter">
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-          </a>
+          <div class="row justify-content-sm-between">
+            <div class="col-sm">
+              <a href="https://riot.im/app/#/room/#libreops:matrix.org" class="mx-1 footer-link" target="_blank">
+                <i class="fa fa-comments" aria-hidden="true"></i> Matrix
+              </a>
+              <a href="https://status.libreops.cc/" class="mx-1 footer-link" target="_blank">
+                <i class="fa fa-area-chart" aria-hidden="true"></i> Uptime
+              </a>
+              <a href="https://gitlab.com/libreops/" class="mx-1 footer-link" target="_blank">
+                <i class="fa fa-git" aria-hidden="true"></i> Source Code
+              </a>
+              <a href="https://libreops.cc/terms/" class="mx-1 footer-link" target="_blank">
+                <i class="fa fa-sticky-note-o" aria-hidden="true"></i> Terms of Service
+              </a>
+            </div>
+            <div class="col-sm">
+              <a href="/feed.xml" class="mx-2 footer-link">
+                <i class="fa fa-rss" aria-hidden="true"></i> Feed
+              </a>
+              <a href="https://libretooth.gr/@libreops" class="mx-2 footer-link">
+                <i class="fa fa-mastodon" aria-hidden="true"></i> Mastodon
+              </a>
+              <a href="https://twitter.com/libreops" class="mx-2 footer-link">
+                <i class="fa fa-twitter" aria-hidden="true"></i> Twitter
+              </a>
+            </div>
+            <div class="col-sm footer-col">
+              <a class="btn btn-danger mb-2" href="https://opencollective.com/libreops/" target="_blank">Donate</a>
+              {% block footer_logo %}{% endblock footer_logo %}
+            </div>
+          </div>
+
         {% endblock %}
       </footer>
     </div>
