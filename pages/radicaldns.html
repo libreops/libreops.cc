@@ -35,14 +35,23 @@
       documentation
     </div>
     <div class="card-body">
+      <div>Using the IPs of our two servers should be enough in most cases.</div>
+      <hr>
       <div>
+        <h4 class="badge badge-dark">server 01</h4>
         <p>
           <span class="badge badge-dark">IP</span> <code>88.198.92.222</code><br>
+          <span class="badge badge-dark">IPv6</span> <code>2a01:4f8:1c0c:82c0::1</code><br>
           <span class="badge badge-dark">Port</span> <code>53</code>
         </p>
-        <hr>
+      </div>
+      <hr>
+      <div>
+        <h4 class="badge badge-dark">server 02</h4>
         <p>
-          <span class="badge badge-dark">IPv6</span> <code>2a01:4f8:1c0c:82c0::1</code>
+          <span class="badge badge-dark">IP</span> <code>192.71.166.92</code><br>
+          <span class="badge badge-dark">IPv6</span> <code>2a03:f80:30:192:71:166:92:1</code><br>
+          <span class="badge badge-dark">Port</span> <code>53</code>
         </p>
       </div>
     </div>
@@ -61,6 +70,7 @@
         In detail:
         <ul>
           <li>We keep no logs. Logs are disabled for our DNS daemon.</li>
+          <li>Our servers are also part of the <a href="https://www.opennic.org/" target="_blank">OpenNIC project</a> as Tier 2 DNS servers.</li>
           <li>We use a local resolver for the DNS requests. We use OpenNIC as our Tier 1.</li>
         </ul>
       </p>
