@@ -17,4 +17,4 @@ This service is based on the Open Source project [Moa](https://github.com/FedSto
 
 <hr>
 
-*If you value our work, please consider [supporting us](https://opencollective.com/libreops/). We only rely to our contributors.*
+*If you value our work, please consider [supporting us](https://opencollective.com/libreops/). We only rely on our contributors.*

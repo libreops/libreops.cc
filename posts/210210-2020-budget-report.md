@@ -36,4 +36,4 @@ Our current surplus gives us the opportunity to plan and deploy new services. St
 
 <hr>
 
-*If you value our work, please consider [supporting us](https://opencollective.com/libreops/). We only rely to our contributors.*
+*If you value our work, please consider [supporting us](https://opencollective.com/libreops/). We only rely on our contributors.*

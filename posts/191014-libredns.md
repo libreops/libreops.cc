@@ -19,4 +19,4 @@ Its name is [LibreDNS](https://libredns.gr/).
 
 <hr>
 
-*If you value our work, please consider [supporting us](https://liberapay.com/libreops/donate). We only rely to our contributors.*
+*If you value our work, please consider [supporting us](https://liberapay.com/libreops/donate). We only rely on our contributors.*

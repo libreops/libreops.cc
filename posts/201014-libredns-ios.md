@@ -67,4 +67,4 @@ To verify that your LibreDNS is running, visit
 
 ---
 
-*If you value our work, please consider [supporting us](https://opencollective.com/libreops/). We only rely to our contributors.*
+*If you value our work, please consider [supporting us](https://opencollective.com/libreops/). We only rely on our contributors.*

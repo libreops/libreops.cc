@@ -17,4 +17,4 @@ We are a small team, working voluntarily, in a non-hierarchical way and depend o
 
 <hr>
 
-*If you value our work, please consider [supporting us](https://opencollective.com/libreops/). We only rely to our contributors.*
+*If you value our work, please consider [supporting us](https://opencollective.com/libreops/). We only rely on our contributors.*
