@@ -215,6 +215,19 @@ nav a.text-dark:focus {
   color: gray;
 }
 
+pre,
+code {
+  background-color: #f6f8fa;
+  line-height: 1.45;
+  font-size: 0.9rem;
+  padding: 5px;
+  color: #e83e8c;
+}
+
+pre > code {
+  padding: 0;
+}
+
 .extra a {
   text-decoration: none;
 }
