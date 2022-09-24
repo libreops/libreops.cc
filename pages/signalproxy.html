@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block title %} &bull; Signal Proxy{% endblock title %}
+
+{% block logo %}<img src="/static/img/signal.png" alt="signal" class="avatar">{% endblock %}
+
+{% block nav %}{% endblock %}
+
+{% block content %}
+  <div class="card w-75 mx-auto">
+    <div class="card-header">
+      <span>about</span>
+    </div>
+    <div class="card-body">
+      <p>
+        A simple proxy that can be used to access Singal instance messaging network
+        in places where it's being actively censored.
+      </p>
+      <p>
+        Open a <a href="/contact/">support ticket</a> for connection details.
+      </p>
+      <hr>
+      <p>
+        برای جزئیات اتصال، یک بلیط پشتیبانی باز کنید.<br>
+        <i class="fa fa-envelope-o mr-1" aria-hidden="true"></i>
+        <img src="/static/img/email.svg">
+      </p>
+      <hr>
+      <p>
+        If you want to help us run more proxies, you can <a href="https://opencollective.com/libreops/" target="_blank">donate</a>.
+      </p>
+    </div>
+  </div>
+
+  <div class="card my-4 w-75 mx-auto">
+    <div class="card-header">
+      resources
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><a href="https://support.signal.org/hc/en-us/articles/360056052052-Proxy-Support" target="_blank">How to use it</a></li>
+        <li><a href="https://support.signal.org/hc/fa/articles/360056052052-%D9%BE%D8%B4%D8%AA%DB%8C%D8%A8%D8%A7%D9%86%DB%8C-%D8%A7%D8%B2-%D9%BE%D8%B1%D9%88%DA%A9%D8%B3%DB%8C" target="_blank">نحوه استفاده از آن</a></li>
+      </ul>
+    </div>
+  </div>
+{% endblock %}
+
+{% block footer_class %}w-75 mx-auto{% endblock %}
+
+{% block footer_logo %}
+  <a href="https://libreops.cc"><img src="/static/img/{{ logo }}" alt="{{ sitename }}" class="footer-avatar"></a>
+{% endblock footer_logo %}
