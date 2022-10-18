@@ -113,6 +113,10 @@ nav a.text-dark:focus {
   margin-top: 15px;
 }
 
+.alumni {
+  opacity: 0.6;
+}
+
 .person-avatar {
   max-width: 80px;
   border-radius: 50%;
