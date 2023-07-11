@@ -1,6 +1,6 @@
 title: Sunsetting konekti, our Mastodon/Twitter cross-poster
 slug: sunsetting-konekti
-date: 2023-07-08 14:11:00
+date: 2023-07-11 14:11:00
 tags: service, mastodon
 files: twitter-api.png
 ---
