@@ -9,7 +9,7 @@ We started our DoH/DoT service, [LibreDNS](https://libredns.gr), to secure (encr
 
 We are really happy about the adaptation of LibreDNS and in some cases about providing a way to overcome censorship. Althouth we are not a big company/organization but a small team, we try to maintain these projects, keep them up to date and provide stable public services to everyone.
 
-We depend on [financial contributions](https://opencollective.com/libreops/) from people who trust and support us into running all of our services. We are always available and open for communication at our [Matrix channel](https://riot.im/app/#/room/#libreops:matrix.org).
+We depend on [financial contributions](https://opencollective.com/libreops/) from people who trust and support us into running all of our services. We are always available and open for communication at our [Matrix channel](https://matrix.to/#/#libreops:matrix.org).
 
 So, many thanks to all of you for supporting **LibreDNS**.
 

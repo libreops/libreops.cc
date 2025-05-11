@@ -11,7 +11,7 @@ The last couple of years our pod has significantly less activity and very few ac
 
 For all these reasons, we believe that librenet.gr has run its course and **we decided to terminate it at October 30th**. We have huge appreciation for all the people that trusted us and this service for all these years. At the same time we still believe there is value in federated services as a big step towards a decentralized internet. That's why we maintain our own [mastodon instance](https://libretooth.gr/).
 
-We are a small team, working voluntarily, in a non-hierarchical way and depend on [financial contributions](https://opencollective.com/libreops/) from people who trust and support us into running all of our services. We are always available and open for communication at our [Matrix channel](https://riot.im/app/#/room/#libreops:matrix.org).
+We are a small team, working voluntarily, in a non-hierarchical way and depend on [financial contributions](https://opencollective.com/libreops/) from people who trust and support us into running all of our services. We are always available and open for communication at our [Matrix channel](https://matrix.to/#/#libreops:matrix.org).
 
 ![diaspora](diaspora2.png)
 
