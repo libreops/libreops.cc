@@ -32,7 +32,7 @@ All of our income comes from donations and our own contributions.
 
 ### Future plans
 
-Our current surplus gives us the opportunity to plan and deploy new services. Stay tuned! We are always open for ideas and feedback at [our Matrix channel](https://riot.im/app/#/room/#libreops:matrix.org).
+Our current surplus gives us the opportunity to plan and deploy new services. Stay tuned! We are always open for ideas and feedback at [our Matrix channel](https://matrix.to/#/#libreops:matrix.org).
 
 <hr>
 

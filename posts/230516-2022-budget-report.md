@@ -43,7 +43,7 @@ As last year we would like to thank our friends in [EDIS](https://www.edis.at/en
 
 ### Future plans
 
-Our current surplus gives us the opportunity to plan again and deploy new services. Stay tuned! We are always open for ideas and feedback at [our Matrix channel](https://riot.im/app/#/room/#libreops:matrix.org).
+Our current surplus gives us the opportunity to plan again and deploy new services. Stay tuned! We are always open for ideas and feedback at [our Matrix channel](https://matrix.to/#/#libreops:matrix.org).
 
 <hr>
 

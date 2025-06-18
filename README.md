@@ -18,7 +18,7 @@ monopati serve
 
 ## Join
 
-[![irc](https://img.shields.io/badge/Matrix-%23libreops:matrix.org-blue.svg?style=flat-square)](https://riot.im/app/#/room/#libreops:matrix.org)
+[![irc](https://img.shields.io/badge/Matrix-%23libreops:matrix.org-blue.svg?style=flat-square)](https://matrix.to/#/#libreops:matrix.org)
 
 ## License
 
